@@ -20,8 +20,8 @@ class placesViewController: CollectionViewController {
         let placesSection = CollectionViewSection(items: [placesViewModel(self.places)])
         placesSection.header = HeaderViewModel(self.places.name)
 
-        let facts = Array<tour>(repeating: tour(name: "Lorem ipsum dolor sit amet", duration: "04:13"), count: 12)
-        let items = facts.map { tourViewModel($0) }
+        let facts = Array<Tour>(repeating: Tour(name: "Lorem ipsum dolor sit amet", duration: "04:13"), count: 12)
+        let items = facts.map { TourViewModel($0) }
         let newItems: [CollectionViewViewModelProtocol] = Array(items.map { [$0] }
                                                             .joined(separator: [SeparatorViewModel(2)]))
 

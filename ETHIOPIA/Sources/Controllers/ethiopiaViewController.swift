@@ -33,7 +33,7 @@ class ethiopiaViewController: CollectionViewController {
         bioSection.header = HeaderViewModel("History")
         
         let placess = [
-            places(name: "Oromo women", name: "Beauty", image: "E06"),
+            places(region: "Oromo women", name: "Beauty", image: "E06"),
         ]
         
         let items = placess.map { placesViewModel($0) }

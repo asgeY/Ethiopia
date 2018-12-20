@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct tour {
+struct Tour {
     let name: String
     let duration: String
 }

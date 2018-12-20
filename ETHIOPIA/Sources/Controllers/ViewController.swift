@@ -21,18 +21,18 @@ class ViewController: CollectionViewController {
         self.view.tintColor = UIColor.white
         
         let places = [
-            tour(name: "OMO Regions", name: "OMO", image: "C01"),
-            tour(name: "South Regions", name: "South", image: "C02"),
-            tour(name: "Amhara Regions", name: "Amhara", image: "C03"),
-            tour(name: "Tigray Regions", name: "Tigray", image: "C04"),
-            tour(name: "Oromo Regions", name: "Oromo", image: "C05"),
-            tour(name: "Afar Regions", name: "Afar", image: "C06"),
-            tour(name: "Semen Mountain", name: "Semen Mountain", image: "E07"),
-            tour(name: "Religion", name: "Religion", image: "E03"),
-            tour(name: "Lucy", name: "Lucy", image: "C07"),
-            tour(name: "Walia ibex", name: "Walia", image: "C08"),
-            tour(name: "Ethiopian wolf", name: "Red Fox", image: "C09"),
-            tour(name: "Dallol Afar", name: "Dallol", image: "C10"),
+            Tour(region: "OMO Regions", name: "OMO", image: "C01"),
+            Tour(region: "South Regions", name: "South", image: "C02"),
+            Tour(region: "Amhara Regions", name: "Amhara", image: "C03"),
+            Tour(region: "Tigray Regions", name: "Tigray", image: "C04"),
+            Tour(region: "Oromo Regions", name: "Oromo", image: "C05"),
+            Tour(region: "Afar Regions", name: "Afar", image: "C06"),
+            Tour(region: "Semen Mountain", name: "Semen Mountain", image: "E07"),
+            Tour(region: "Religion", name: "Religion", image: "E03"),
+            Tour(region: "Lucy", name: "Lucy", image: "C07"),
+            Tour(region: "Walia ibex", name: "Walia", image: "C08"),
+            Tour(region: "Ethiopian wolf", name: "Red Fox", image: "C09"),
+            Tour(region: "Dallol Afar", name: "Dallol", image: "C10"),
             
             ]
         
