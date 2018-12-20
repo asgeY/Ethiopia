@@ -34,7 +34,7 @@ class ViewController: CollectionViewController {
             Tour(region: "Ethiopian wolf", name: "Red Fox", image: "C09"),
             Tour(region: "Dallol Afar", name: "Dallol", image: "C10"),
             
-            ]
+        ]
         
         let grid = Grid(columns: 4, margin: UIEdgeInsets(all: 8))
         

@@ -6,7 +6,7 @@
 //  Copyright © 2018. AsgeY. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct Tour {
     let name: String

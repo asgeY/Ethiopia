@@ -32,11 +32,11 @@ class ethiopiaViewController: CollectionViewController {
         let bioSection = CollectionViewSection(items: [DynamicTextViewModel(his)])
         bioSection.header = HeaderViewModel("History")
         
-        let placess = [
-            places(region: "Oromo women", name: "Beauty", image: "E06"),
+        let places = [
+            Tour(region: "Oromo women", name: "Beauty", image: "E06"),
         ]
         
-        let items = placess.map { placesViewModel($0) }
+        let items = places.map { placesViewModel($0) }
         let placesSection = CollectionViewSection(items: items)
         placesSection.header = HeaderViewModel("Places")
         
